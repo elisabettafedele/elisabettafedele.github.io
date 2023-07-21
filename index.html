@@ -22,7 +22,7 @@
               </p>
               <p>I am a Computer Science Master student at <a href="https://ethz.ch/en.html">ETH Zürich</a>, where I am specializing in Theoretical Computer Science and Machine Learning, with a particular focus on its application in the field of Computer Vision.
                 <br>During the past semester I have been working on Open-Vocabulary 3D scene understanding and Diffusion Models for image generation. 
-                <br>I will spend the summer at <a href="https://www.epfl.ch/fr/">EPFL</a> doing a research internship in <a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa</a>'s lab working on <a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">Zero-Knowledge Proofs</a>.
+                <br>I will spend the summer at <a href="https://www.epfl.ch/fr/">EPFL</a> doing a research internship in <a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa</a>'s lab working on Probabilistic Proofs.
               </p>
               <p style="text-align:center">
                 <a href="mailto:efedele@ethz.ch">Email</a> &nbsp/&nbsp
@@ -49,27 +49,62 @@
             </td>
           </tr> -->
           
-            <td style="padding:20px;width:100%;vertical-align:middle">
+            <!-- <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Notes</heading>
               <p>
                 Throughout my studies I always been interested in creating studying material which made the study easier and more intuitive both to me and to my peers. 
                 <br>I am currently writing the lecture notes for the graduate course of <a href="https://ait.ethz.ch/teaching/courses/2023-ss-machine-perception">Machine Perception</a>, they will be available soon!
               </p>
-            </td>
+            </td> -->
           </tr>
           <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <!-- <p>
-                Some Research.
-              </p> -->
             </td>
           </tr>
           <tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
+    <tr onmouseout="bakedsdf_stop()" onmouseover="bakedsdf_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <br>
+          <img src='images/fabric/FABRIC.drawio.jpeg' width="160">
+        </div>
+        <script type="text/javascript">
+          function bakedsdf_start() {
+            document.getElementById('bakedsdf_image').style.opacity = "1";
+          }
 
+          function bakedsdf_stop() {
+            document.getElementById('bakedsdf_image').style.opacity = "0";
+          }
+          bakedsdf_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://sd-fabric.github.io/">
+          <papertitle>FABRIC: Personalizing Diffusion Models with Iterative Feedback</papertitle>
+        </a>
+        <br>
+        <a href="#">Dimitri Von Rütte*</a>,
+        <strong>Elisabetta Fedele*</strong>,
+        <a href="#">Jonathan Thomm*</a>,
+        <a href="https://lu-wo.github.io/">Lukas Wolf*</a>      
+        <br>
+        <br>
+        <a href="https://sd-fabric.github.io/">project page</a>
+        /
+        <a href="https://arxiv.org/abs/2307.10159">arXiv</a>
+        /
+        <a href="https://github.com/sd-fabric/fabric">code</a>
+        <p></p>
+        <p>
+          FABRIC is training-free approach that conditions the diffusion process on a set of feedback images, applicable to a wide range of popular diffusion models.
+        </p>
+      </td>
+    </tr>
 
     <tr onmouseout="bakedsdf_stop()" onmouseover="bakedsdf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
