@@ -66,6 +66,47 @@
           <tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="bakedsdf_stop()" onmouseover="bakedsdf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <br>
+                <img src='images/blendy/blendy_teaser.jpeg' width="160">
+              </div>
+              <script type="text/javascript">
+                function bakedsdf_start() {
+                  document.getElementById('bakedsdf_image').style.opacity = "1";
+                }
+      
+                function bakedsdf_stop() {
+                  document.getElementById('bakedsdf_image').style.opacity = "0";
+                }
+                bakedsdf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://eprint.iacr.org/2024/524">
+                <papertitle>A Time-Space Tradeoff for the Sumcheck Prover</papertitle>
+              </a>
+              <br>
+              <a href="https://ic-people.epfl.ch/~achiesa/">Alessandro Chiesa*</a>,
+              <strong>Elisabetta Fedele*</strong>,
+              <a href="https://gfenzi.io">Giacomo Fenzi*</a>,
+              <a href="#">Andrew Zitek-Estrada*</a>      
+              <br>
+              <em>ZKProof Workshop 6, Berlin</em> 2024
+              <br>
+              <a href="https://gfenzi.io/papers/blendy-sumcheck/">blog post</a>
+              /
+              <a href="https://eprint.iacr.org/2024/524">ePrint</a>
+              /
+              <a href="https://github.com/compsec-epfl/space-efficient-sumcheck/">code</a>
+              <p></p>
+              <p>
+                Blendy is a new concretely efficient algorithm for multilinear sumcheck proving which uses linear time and sublinear memory. 
+              </p>
+            </td>
+          </tr>
 				
     <tr onmouseout="bakedsdf_stop()" onmouseover="bakedsdf_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
